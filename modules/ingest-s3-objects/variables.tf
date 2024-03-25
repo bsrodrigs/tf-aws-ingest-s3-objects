@@ -11,6 +11,7 @@ variable "bucket_name" {
 
 variable "bucket_prefix" {
   type        = string
+  default     = ""
   description = "Set the bucket prefix for the target objects. In some cases objects are grouped by year, month, day, hour, etc . "
 }
 
